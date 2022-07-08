@@ -1,12 +1,13 @@
+import { NativeBaseProvider } from 'native-base';
 import React from 'react';
 
-import UseState from './src/components/UseState';
-import UseEffect from './src/components/UseEffect';
-
+import Navigator from './AppNavigator';
 
 const App = () => {
   return (
-    <UseEffect/>
+    <NativeBaseProvider>
+      <Navigator/>
+    </NativeBaseProvider>
   );
 };
 
