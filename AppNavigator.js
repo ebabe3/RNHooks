@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
 import UseEffect from './screens/UseEffect';
 import UseState from './screens/UseState';
+import UseContext from './screens/UseContext';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +24,10 @@ const Navigator = () => {
                 <Stack.Screen 
                     name="UseEffect"
                     component={UseEffect}        
+                />
+                <Stack.Screen 
+                    name="UseContext"
+                    component={UseContext}        
                 />
             </Stack.Navigator>
         </NavigationContainer>

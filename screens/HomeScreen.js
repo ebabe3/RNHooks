@@ -6,10 +6,13 @@ const HomeScreen = ({navigation}) => {
     <View>
       <Button 
         onPress={() => navigation.navigate('UseState')}
-        title = "Use State"/>
+        title = "useState"/>
       <Button 
         onPress={() => navigation.navigate('UseEffect')}
-        title = "Use Effect"/>
+        title = "useEffect"/>
+      <Button 
+        onPress={() => navigation.navigate('UseContext')}
+        title = "useContext"/>
     </View>
   )
 }
