@@ -2,10 +2,10 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import HomeScreen from './screens/HomeScreen';
-import UseEffect from './screens/UseEffect';
-import UseState from './screens/UseState';
-import UseContext from './screens/UseContext';
+import HomeScreen from './src/screens/HomeScreen'
+import UseEffect from './src/screens/UseEffect';
+import UseState from './src/screens/UseState';
+import UseContext from './src/screens/UseContext';
 
 const Stack = createNativeStackNavigator();
 
